@@ -4,11 +4,12 @@ import "./Navbar.css";
 export const Navbar = () => {
   return (
     <div className={"containerNavbar"}>
-      <h4>Comision 47225</h4>
+      <h4>Clothing</h4>
       <ul className="categories">
-        <li>Todas</li>
-        <li>Urbanas</li>
-        <li>Deportivas</li>
+        <li>Inicio</li>
+        <li>Mujer</li>
+        <li>Hombre</li>
+        <li>Niños</li>
       </ul>
       <CartWidget />
     </div>

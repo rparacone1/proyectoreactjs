@@ -3,12 +3,15 @@ import { Navbar } from "./components/layout/navbar/Navbar";
 import ItemListContainer from "./components/pages/itemListContainer/ItemListContainer";
 
 function App() {
+  let saludo = "Bienvenido a la tienda"
   return (
     <>
       <Navbar />
-      <ItemListContainer />
+      <ItemListContainer saludo = {saludo}/>
+      {/*
       <CounterContainer />
       <h2>Hola</h2>
+      */}
     </>
   );
 }
